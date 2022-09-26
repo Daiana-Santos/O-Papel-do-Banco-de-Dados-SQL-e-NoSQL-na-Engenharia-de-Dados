@@ -1,6 +1,6 @@
 # O-Papel-do-Banco-de-Dados-SQL-e-NoSQL-na-Engenharia-de-Dados
 Conceitos, definições e insigths para compreender o Papel do Banco de Dados SQL e NoSQL na Engenharia de Dados
-# Banco de Dados Relacional
+*Banco de Dados Relacional
 Armazena e fornece acesso a informações com relações entre si, 
 com consistência e sem duplicidade num sistema rígido. 
  - Tipos de Banco de Dados Relacional: MySQL,MariaDB,Oracle, Amazon Aurora
@@ -28,7 +28,8 @@ dessa tabela para procurar as informações de faturamento e envio do
 cliente na tabela de informações do cliente. O warehouse poderá obter o 
 produto correto, o cliente receberá a entrega do pedido oportunamente e 
 a empresa receberá o pagamento.
-# Banco de Dados Não Relacional
+https://www.oracle.com/br/database/what-is-a-relational-database/
+*Banco de Dados Não Relacional
 Armazena grandes volumes dados de forma não estruturada,não sendo 
 necessáriamente ser conhecidas e não precisa ter relação entre si.
 são amplamente usados em aplicativos da web em tempo real e big data, 
@@ -37,5 +38,12 @@ disponibilidade.
  - Tipos de Banco de Dados Relacional:MongoDB,Neo4j,Cassandra, Amazon DynamoDB
 Memcached, Hbase.
  - Empresas que usam este tipo de banco de Dados: MTV, Facebook,Google,The New York Times..etc
-https://www.oracle.com/br/database/what-is-a-relational-database/
 https://learn.microsoft.com/pt-br/azure/architecture/data-guide/big-data/non-relational-data
+
+Ambos são extramente importantes na Engenharia de dados, pois dependendo 
+da necessidade da empresa acabam utilizando os dois tipos, nesse caso um
+um complementa o outro. É preciso analisar o cenário em que a empresa está
+inserida, o volume de dados que possui, a agilidade em acessar os dados
+e o orçamento, com essas informações levantadas o responsável pela 
+Engenharia Dados poderá definir qual tipo de Banco de Dados será mais
+adequado e alcansará melhores resultdos.
